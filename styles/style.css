@@ -1,0 +1,84 @@
+.header {
+  padding: 33px 165px 32px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  background-color: #E1EDE6;
+}
+
+.logo-size {
+  display: block;
+  width: 143px;
+}
+
+.nav {
+  width: 500;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-self: end;
+  gap: 62px;
+}
+
+.nav__item {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+}
+
+.cart-size {
+  display: inline-block;
+  width: 24px;
+  vertical-align: middle;
+}
+
+.banner {
+  padding: 0 165px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: min-content 1fr;
+}
+
+.bird {
+  width: 540px;
+}
+
+.banner-info {
+  padding: 0 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  letter-spacing: 0;
+
+}
+
+.banner-info__title {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0;
+  letter-spacing: 110%;
+}
+
+.banner-info__title--color {
+  color: green;
+  ;
+}
+
+.banner-info__text {
+  font-size: 18px;
+  letter-spacing: 0;
+  color: #86928B;
+}
+
+.banner-info__button {
+  all:unset;
+  font-weight: 500;
+  font-size: 20px;
+  color: #86928B;
+  border: #86928B 1px solid;
+}
