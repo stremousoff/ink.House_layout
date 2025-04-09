@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   align-items: center;
+  justify-content: end;
   background-color: #E1EDE6;
 }
 
@@ -21,12 +22,17 @@
   list-style: none;
   display: flex;
   justify-self: end;
-  gap: 62px;
+  gap: 60px;
 }
 
 .nav__item {
   font-family: Raleway, sans-serif;
   text-decoration: none;
+}
+
+.nav__item--hipertext-decoration {
+  text-decoration: none;
+  color: black;
 }
 
 .cart-size {
@@ -47,13 +53,19 @@
 }
 
 .banner-info {
-  padding: 0 14px;
+  padding: 144px 0 0 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 32px;
+  justify-content: start;
+  gap: 60px;
   letter-spacing: 0;
 
+}
+
+.banner-info__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .banner-info__title {
@@ -72,6 +84,7 @@
 .banner-info__text {
   font-size: 18px;
   letter-spacing: 0;
+  line-height: 150%;
   color: #86928B;
 }
 
@@ -81,4 +94,6 @@
   font-size: 20px;
   color: #86928B;
   border: #86928B 1px solid;
+  width: fit-content;
+  padding: 20px 60px;
 }
