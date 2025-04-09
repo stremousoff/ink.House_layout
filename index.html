@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <title>House</title>
+    <title>House project</title>
   </head>
   <body>
     <header class="header">
@@ -15,13 +16,13 @@
       <nav class="nav">
         <ul class="nav__list">
           <li>
-            <a class="nav__item--hipertext-decoration" href="#">Репродукции</a>
+            <a class="link-decoration" href="#">Репродукции</a>
           </li>
           <li>
-            <a class="nav__item--hipertext-decoration" href="#">Новинки</a>
+            <a class="link-decoration" href="#">Новинки</a>
           </li>
           <li>
-            <a class="nav__item--hipertext-decoration" href="#">О нас</a>
+            <a class="link-decoration" href="#">О нас</a>
           </li>
           <li>
             <a href="#">
@@ -40,6 +41,133 @@
             <p class="banner-info__text">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.</p>
           </div>
           <button class="banner-info__button">Продукция</button>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="catalog-title">
+          <h2 class="catalog-title__text">Репродукции</h2>
+          <ul class="catalog-title__buttons">
+            <li>
+              <button class="catalog-title__button">Франция</button>
+            </li>
+            <li>
+              <button class="catalog-title__button">Германия</button>
+            </li>
+            <li>
+              <button class="catalog-title__button">Англия</button>
+            </li>
+        </div>
+        <div>
+          <ul class="catalog-cards__list">
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a class="link-card-image"="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/ochota-Amura.jpg" alt="ochota-Amura" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Марсель Руссо</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Охота Амура</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Холст, масло (50х80)</p>
+                  <p class="catalog-card__price">14 500 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a href="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/dama-s-sobachkoi.jpg" alt="dama-s-sobachkoj" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Анри Селин</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Дама с собачкой</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Акрил, бумага (50х80)</p>
+                  <p class="catalog-card__price">16 500 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a href="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/procedura.jpg" alt="procedura" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Франсуа Дюпон</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Процедура</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Цветная литография (40х60)</p>
+                  <p class="catalog-card__price">20 000 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a href="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/roza.jpg" alt="roza" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Луи Детуш</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Роза</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Бумага, акрил (50х80)</p>
+                  <p class="catalog-card__price">12 000 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a href="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/ptichya-trapeza.jpg" alt="ptichya-trapeza" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Франсуа Дюпон</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Птичья трапеза</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Цветная литография (40х60)</p>
+                  <p class="catalog-card__price">22 500 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+            <li class="catalog-card__item">
+              <article class="catalog-card">
+                <picture>
+                  <a href="#">
+                    <img class="catalog-card__image" src="./images/france-card-image/ribya-trapeza.jpg" alt="ribya-trapeza" />
+                  </a>
+                </picture>
+                <div class="catalog-card-info">
+                  <h3 class="catalog-card__author">Пьер Моранж</h3>
+                  <a class="link-decoration" href="#">
+                    <h2 class="catalog-card__name-of-picture">Пейзаж с рыбой</h2>
+                  </a>
+                  <p class="catalog-card__type-of-picture">Цветная литография (40х60)</p>
+                  <p class="catalog-card__price">20 000 руб</p>
+                  <button class="catalog-card__add-cart">В корзину</button>
+                </div>
+              </article>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
