@@ -199,3 +199,25 @@
   width: fit-content;
   padding: 20px 106px;
 }
+
+.cover {
+  position: relative;
+  margin-top: 70px;
+  min-height: 574px;
+  background-image: url(../images/background-cover.png);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-image: url(../images/cover-image.png);
+}
+
+.overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-image: url('../images/cover-style.png');
+}
