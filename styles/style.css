@@ -200,11 +200,12 @@
   padding: 20px 106px;
 }
 
-.cover {
+.conteiner {
   position: relative;
   margin-top: 70px;
   min-height: 574px;
   background-image: url(../images/background-cover.png);
+  padding: 70px 0 70px 165px ;
 }
 
 .overlay {
@@ -220,4 +221,41 @@
   inset: 0;
   background-size: cover;
   background-image: url('../images/cover-style.png');
+}
+
+.conteiner-title {
+  position: relative;
+  max-width: 521px;
+  background-image: url(../images/star.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.conteiner-title__text {
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  padding-left: 100px;
+  line-height: 100%;
+}
+
+.conteiner-text {
+  position: relative;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: white;
+  max-width: 540px;
+  margin-top: 20px;
+}
+
+.conteiner-button {
+  position: relative;
+  margin-top: 61px;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #EEDB6D;
+  padding: 20px 60px;
 }
